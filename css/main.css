@@ -1,0 +1,29 @@
+:root {
+   --bs-primary: #bb7777;
+  --bs-secondary: #ffe6ac;
+  --bs-primary-rgb: 187, 119, 119;
+  --bs-secondary-rgb: 255, 230, 172;
+  --bs-dark: rgb(63, 31, 85);
+  --bs-warning: #0dcaf0;
+  --bs-dark-rgb: 34, 34, 34;
+  --bs-warning-rgb: 255, 193, 7;
+    --bs-danger-rgb: 220, 53, 69;
+}
+ 
+ 
+  .skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    padding: 8px;
+    z-index: 100;
+  }
+  
+  
+  .skip-link:focus {
+    top: 0;
+  } 
+
+  .nav-link {
+    /* color: var(--bs-primary); */
+  }
