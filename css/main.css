@@ -10,6 +10,7 @@
     --bs-danger-rgb: 220, 53, 69;
 }
  
+/* styling skip link  */
  
   .skip-link {
     position: absolute;
@@ -18,12 +19,12 @@
     padding: 8px;
     z-index: 100;
   }
-  
-  
+    
   .skip-link:focus {
     top: 0;
   } 
 
+  /* styling navigation hover and focus  */
   .navbar-dark .navbar-nav .nav-link {
     color: var(--bs-primary);
     font-size: 1.25rem;
@@ -38,4 +39,32 @@
     background-color: var(--bs-secondary);
   }
   
+  /* custom text and container size of main images in home page  */
 
+  @media screen and (max-width: 1200px) {
+        .site-header  {
+      font-size:55px;
+    }
+  }
+
+  @media screen and (max-width: 750px) {
+    .carousel-caption h5, p {
+      font-size: smaller;
+    }
+    .site-header  {
+      font-size:25px;
+    }
+    .carousel-caption {
+      max-height: 20%;
+    }    
+  }
+
+  @media screen and (max-width: 650px) {    
+    .carousel-caption {
+      max-height: 30%;
+    }
+    /* resizing site logo in small screens */
+    .site-logo {
+      max-width: 75%;
+    }    
+  }
